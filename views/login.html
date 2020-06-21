@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>
+        <%= title %>
+    </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="icon" href="/images/nodepop.png" type="image/png">
+</head>
+
+<body class="text-center">
+
+    <div class='padre-logIn-SignUp'>
+        <div class='hijo-logIn-SignUp'>
+
+            <form class="form-signin" method="POST">
+                <img class="mb-4" src="/images/nodepop.png" alt="" width="108" height="108">
+                <h1 class="h3 mb-3 font-weight-normal">
+                    <%= __('Please log in') %>
+                </h1>
+                <label for="inputEmail" class="sr-only"><%= __('Email address') %></label>
+                <input type="email" id="inputEmail" class="form-control" placeholder="<%= __('Email address') %>" name="email" value="<%= email %>" required autofocus> &nbsp;
+                <label for="inputPassword" class="sr-only"><%=  __('Password') %></label>
+                <input type="password" id="inputPassword" class="form-control" placeholder="<%= __('Password') %>" name="password" required> &nbsp;
+                <% if(error) { %>
+                    <div class="alert alert-danger" role="alert">
+                        <%= error %>
+                    </div>
+                    <% } %>
+                        <button class="btn btn-lg btn-primary btn-block" type="submit"><%= __('Log in') %></button>
+                        <p class="mt-5 mb-3 text-muted">&copy; 2017-2019</p>
+            </form>
+
+        </div>
+    </div>
+</body>
+
+</html>

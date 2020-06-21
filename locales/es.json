@@ -1,0 +1,16 @@
+{
+    "Welcome to": "Bienvenido a",
+    "Contact": "Contacto",
+    "Login": "Conéctate",
+    "Email address": "Dirección de Email",
+    "Password": "Contraseña",
+    "There aren't results.try again": "No hay resultados para esa búsqueda.",
+    "Verify that:": "por favor, verifique lo siguiente:",
+    "The sell value can be:": "losvalores pueden ser:",
+    "The tags value can be:": "los tags pueden ser:",
+    "The price value can be:": "el precio puede ser:",
+    "The decimal price separator must be": "El separador decimal de 'sell' debe ser",
+    "ExactPrice": "PrecioExacto",
+    "MinPrice": "PrecioMínimo",
+    "MaxPrice": "PrecioMáximo"
+}

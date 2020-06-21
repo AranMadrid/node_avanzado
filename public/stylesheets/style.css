@@ -1,0 +1,44 @@
+/* body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+} */
+
+:root {
+    background-color: rgb(236, 144, 224)
+}
+
+main {
+    padding: 50px;
+    background-color: rgb(218, 93, 145)
+}
+
+a {
+    color: rgb(93, 95, 218);
+}
+
+.navbar-title-h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar-brand der {
+    align-items: flex-end;
+}
+
+.padre-logIn-SignUp {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 144, 224);
+}
+
+.hijo-logIn-SignUp {
+    width: 500px;
+    background-color: rgb(218, 93, 145);
+}
+
+.centrado {
+    text-align: center;
+}
